@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="salesforce-sync-service$sources"
+		revision="0.1"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180716150125"/>
+	<dependencies>
+		<module organisation="org.apache.kafka" name="kafka_2.12">
+			<revision name="1.1.0" status="release" pubdate="20180324043927" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://kafka.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="43">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="13759" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.kafka\kafka_2.12\ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kafka/kafka_2.12/1.1.0/kafka_2.12-1.1.0.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="kafka_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="879063" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.kafka\kafka_2.12\srcs\kafka_2.12-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kafka/kafka_2.12/1.1.0/kafka_2.12-1.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.9.5" status="release" pubdate="20180326204920" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="42">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="22771" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.9.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.9.5" rev-constraint-default="2.9.5" rev-constraint-dynamic="2.9.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="991407" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\srcs\jackson-databind-2.9.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream-kafka_2.12">
+			<revision name="0.20" status="release" pubdate="20180406070721" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/akka/reactive-kafka" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="41">
+				<license name="Apache License 2.0" url="http://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="4766" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.typesafe.akka\akka-stream-kafka_2.12\ivy-0.20.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-kafka_2.12/0.20/akka-stream-kafka_2.12-0.20.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="0.20" rev-constraint-default="0.20" rev-constraint-dynamic="0.20" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="akka-stream-kafka_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33949" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.typesafe.akka\akka-stream-kafka_2.12\srcs\akka-stream-kafka_2.12-0.20-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-kafka_2.12/0.20/akka-stream-kafka_2.12-0.20-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.zookeeper" name="zookeeper">
+			<revision name="3.4.10" status="release" pubdate="20170323173836" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7346" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.zookeeper\zookeeper\ivy-3.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.10/zookeeper-3.4.10.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="3.4.10" rev-constraint-default="3.4.10" rev-constraint-dynamic="3.4.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="zookeeper" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="592940" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.zookeeper\zookeeper\srcs\zookeeper-3.4.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.10/zookeeper-3.4.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-testkit_2.12">
+			<revision name="2.5.8" status="release" pubdate="20171207224142" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.8" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="37">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3731" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.typesafe.akka\akka-testkit_2.12\ivy-2.5.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.8/akka-testkit_2.12-2.5.8.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.5.8" rev-constraint-default="2.5.8" rev-constraint-dynamic="2.5.8" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.8"/>
+				<artifacts>
+					<artifact name="akka-testkit_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41004" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.typesafe.akka\akka-testkit_2.12\srcs\akka-testkit_2.12-2.5.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.5.8/akka-testkit_2.12-2.5.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jsuereth" name="scala-arm_2.12">
+			<revision name="2.0" status="release" pubdate="20161116043422" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jsuereth.com/scala-arm" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="36">
+				<license name="BSD-Style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3176" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.jsuereth\scala-arm_2.12\ivy-2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.0" rev-constraint-default="2.0" rev-constraint-dynamic="2.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-arm_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14192" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.jsuereth\scala-arm_2.12\srcs\scala-arm_2.12-2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jsuereth/scala-arm_2.12/2.0/scala-arm_2.12-2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.12">
+			<revision name="2.5.9" status="release" pubdate="20180111204545" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.9" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3419" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.typesafe.akka\akka-stream_2.12\ivy-2.5.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.9/akka-stream_2.12-2.5.9.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.5.9" rev-constraint-default="2.5.9" rev-constraint-dynamic="2.5.9" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.9"/>
+				<artifacts>
+					<artifact name="akka-stream_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="490341" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.typesafe.akka\akka-stream_2.12\srcs\akka-stream_2.12-2.5.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.9/akka-stream_2.12-2.5.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kafka" name="kafka-clients">
+			<revision name="1.1.0" status="release" pubdate="20180324043416" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://kafka.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3700" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.kafka\kafka-clients\ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="kafka-clients" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1123922" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.kafka\kafka-clients\srcs\kafka-clients-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.1.7.1" status="release" pubdate="20171208012110" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3983" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.xerial.snappy\snappy-java\ivy-1.1.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.7.1/snappy-java-1.1.7.1.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.1.7.1" rev-constraint-default="1.1.7.1" rev-constraint-dynamic="1.1.7.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="snappy-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2013891" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.xerial.snappy\snappy-java\srcs\snappy-java-1.1.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.7.1/snappy-java-1.1.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.101tec" name="zkclient">
+			<revision name="0.10" status="release" pubdate="20161108220530" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sgroschupf/zkclient" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3885" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.101tec\zkclient\ivy-0.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/101tec/zkclient/0.10/zkclient-0.10.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="0.10" rev-constraint-default="0.10" rev-constraint-dynamic="0.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="zkclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43713" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.101tec\zkclient\srcs\zkclient-0.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/101tec/zkclient/0.10/zkclient-0.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.9.5" status="release" pubdate="20180326203520" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="22054" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.9.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.5/jackson-core-2.9.5.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.9.5" rev-constraint-default="2.9.5" rev-constraint-dynamic="2.9.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="332698" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\srcs\jackson-core-2.9.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.5/jackson-core-2.9.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro">
+			<revision name="1.8.1" status="release" pubdate="20160517213351" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="26">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12077" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.avro\avro\ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.1/avro-1.8.1.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="avro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="282119" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.avro\avro\srcs\avro-1.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.8.1/avro-1.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.9.0" status="release" pubdate="20170730092340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7030" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="68177" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\srcs\jackson-annotations-2.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.12">
+			<revision name="0.2.2" status="release" pubdate="20170308200931" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2891" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.typesafe\ssl-config-core_2.12\ivy-0.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="0.2.2" rev-constraint-default="0.2.2" rev-constraint-dynamic="0.2.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49384" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.typesafe\ssl-config-core_2.12\srcs\ssl-config-core_2.12-0.2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.0.4" status="release" pubdate="20161029044045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="34">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2819" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42274" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\srcs\scala-parser-combinators_2.12-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.yammer.metrics" name="metrics-core">
+			<revision name="2.2.0" status="release" pubdate="20121127014109" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4350" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.yammer.metrics\metrics-core\ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="metrics-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="46705" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.yammer.metrics\metrics-core\srcs\metrics-core-2.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.2" status="release" pubdate="20171219013638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2553" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.reactivestreams\reactive-streams\ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3997" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.reactivestreams\reactive-streams\srcs\reactive-streams-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.8.1" status="release" pubdate="20140510004752" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-compress/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10486" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.commons\commons-compress\ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-compress" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="377163" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.commons\commons-compress\srcs\commons-compress-1.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.force.api" name="force-partner-api">
+			<revision name="43.0.0" status="release" pubdate="20180517013326" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.force.com/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="BSD License (FreeBSD)" url="LICENSE.md"/>
+				<metadata-artifact status="no" details="" size="3316" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.force.api\force-partner-api\ivy-43.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/force/api/force-partner-api/43.0.0/force-partner-api-43.0.0.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="43.0.0" rev-constraint-default="43.0.0" rev-constraint-dynamic="43.0.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="force-partner-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="794634" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.force.api\force-partner-api\srcs\force-partner-api-43.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/force/api/force-partner-api/43.0.0/force-partner-api-43.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.force.api" name="force-wsc">
+			<revision name="43.0.0" status="release" pubdate="20180517012415" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.force.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="32">
+				<license name="BSD License (FreeBSD)" url="LICENSE.md"/>
+				<metadata-artifact status="no" details="" size="4204" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.force.api\force-wsc\ivy-43.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/force/api/force-wsc/43.0.0/force-wsc-43.0.0.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="43.0.0" rev-constraint-default="43.0.0" rev-constraint-dynamic="43.0.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="force-wsc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="295431" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.force.api\force-wsc\srcs\force-wsc-43.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/force/api/force-wsc/43.0.0/force-wsc-43.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715083750" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2820" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.codehaus.jackson\jackson-mapper-asl\ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="548251" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.codehaus.jackson\jackson-mapper-asl\srcs\jackson-mapper-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="ST4">
+			<revision name="4.0.7" status="release" pubdate="20130105090641" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.stringtemplate.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="BSD licence" url="http://antlr.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4908" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.antlr\ST4\ivy-4.0.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="4.0.7" rev-constraint-default="4.0.7" rev-constraint-dynamic="4.0.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="ST4" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="191232" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.antlr\ST4\srcs\ST4-4.0.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr-runtime">
+			<revision name="3.5" status="release" pubdate="20130105090525" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.antlr.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="BSD licence" url="http://antlr.org/license.html"/>
+				<metadata-artifact status="no" details="" size="5555" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.antlr\antlr-runtime\ivy-3.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="3.5" rev-constraint-default="3.5" rev-constraint-dynamic="3.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="antlr-runtime" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="205982" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.antlr\antlr-runtime\srcs\antlr-runtime-3.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="stringtemplate">
+			<revision name="3.2.1" status="release" pubdate="20090923045529" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.stringtemplate.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="BSD licence" url="http://antlr.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3719" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.antlr\stringtemplate\ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="stringtemplate" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="162458" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.antlr\stringtemplate\srcs\stringtemplate-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.5" status="release" pubdate="20140308170924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2433" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.tukaani\xz\ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="xz" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="117832" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.tukaani\xz\srcs\xz-1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-beanutils" name="commons-beanutils">
+			<revision name="1.7.0" status="release" pubdate="20051109035021" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<metadata-artifact status="no" details="" size="2550" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\commons-beanutils\commons-beanutils\ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-beanutils" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="195349" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\commons-beanutils\commons-beanutils\srcs\commons-beanutils-1.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scalap">
+			<revision name="2.12.6" status="release" pubdate="20180427141125" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2673" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.scala-lang\scalap\ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scalap/2.12.6/scalap-2.12.6.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalap" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37333" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.scala-lang\scalap\srcs\scalap-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scalap/2.12.6/scalap-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.12.6" status="release" pubdate="20180427141227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2974" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.scala-lang\scala-compiler\ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.6/scala-compiler-2.12.6.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1836089" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.scala-lang\scala-compiler\srcs\scala-compiler-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.6/scala-compiler-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.6" status="release" pubdate="20161101195105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="16">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3024" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109199" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\srcs\scala-xml_2.12-1.0.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.6" status="release" pubdate="20180427140633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2670" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="587933" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.liftweb" name="lift-json_2.12">
+			<revision name="3.3.0-M3" status="release" pubdate="20180602193022" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.liftweb.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3621" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\net.liftweb\lift-json_2.12\ivy-3.3.0-M3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/liftweb/lift-json_2.12/3.3.0-M3/lift-json_2.12-3.3.0-M3.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="3.3.0-M3" rev-constraint-default="3.3.0-M3" rev-constraint-dynamic="3.3.0-M3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lift-json_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="40814" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\net.liftweb\lift-json_2.12\srcs\lift-json_2.12-3.3.0-M3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/liftweb/lift-json_2.12/3.3.0-M3/lift-json_2.12-3.3.0-M3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
+			<revision name="2.5.9" status="release" pubdate="20180111204020" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.9" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3136" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\ivy-2.5.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.9/akka-actor_2.12-2.5.9.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.5.9" rev-constraint-default="2.5.9" rev-constraint-dynamic="2.5.9" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.9"/>
+				<artifacts>
+					<artifact name="akka-actor_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="523028" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\srcs\akka-actor_2.12-2.5.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.9/akka-actor_2.12-2.5.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
+			<revision name="0.8.0" status="release" pubdate="20161030034227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3072" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.12\ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63853" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.12\srcs\scala-java8-compat_2.12-0.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.2" status="release" pubdate="20171006193218" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2910" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.typesafe\config\ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="172766" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.typesafe\config\srcs\config-1.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.lz4" name="lz4-java">
+			<revision name="1.4" status="release" pubdate="20170803014907" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lz4/lz4-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2767" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.lz4\lz4-java\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/lz4/lz4-java/1.4/lz4-java-1.4.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lz4-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="59248" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.lz4\lz4-java\srcs\lz4-java-1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/lz4/lz4-java/1.4/lz4-java-1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.6" status="release" pubdate="20180427141006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="5">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2501" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="992293" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715083730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2594" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.codehaus.jackson\jackson-core-asl\ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="240367" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.codehaus.jackson\jackson-core-asl\srcs\jackson-core-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.8" status="release" pubdate="20150826165928" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4296" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.thoughtworks.paranamer\paranamer\ivy-2.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="2.8" rev-constraint-default="2.8" rev-constraint-dynamic="2.8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27125" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.thoughtworks.paranamer\paranamer\srcs\paranamer-2.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.jopt-simple" name="jopt-simple">
+			<revision name="5.0.4" status="release" pubdate="20170713204239" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jopt-simple.github.io/jopt-simple" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4306" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\net.sf.jopt-simple\jopt-simple\ivy-5.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="5.0.4" rev-constraint-default="5.0.4" rev-constraint-dynamic="5.0.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jopt-simple" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="85484" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\net.sf.jopt-simple\jopt-simple\srcs\jopt-simple-5.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpmime">
+			<revision name="4.5.5" status="release" pubdate="20180118172436" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10541" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.httpcomponents\httpmime\ivy-4.5.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.5/httpmime-4.5.5.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="4.5.5" rev-constraint-default="4.5.5" rev-constraint-dynamic="4.5.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpmime" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41774" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.httpcomponents\httpmime\srcs\httpmime-4.5.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.5/httpmime-4.5.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.5.5" status="release" pubdate="20180118172409" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="38">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11028" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.5.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="4.5.5" rev-constraint-default="4.5.5" rev-constraint-dynamic="4.5.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="729131" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.httpcomponents\httpclient\srcs\httpclient-4.5.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106194535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10706" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="301032" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\commons-codec\commons-codec\srcs\commons-codec-1.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.9" status="release" pubdate="20180112091227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9357" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="4.4.9" rev-constraint-default="4.4.9" rev-constraint-dynamic="4.4.9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="410131" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.apache.httpcomponents\httpcore\srcs\httpcore-4.4.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20140705234228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11725" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\commons-logging\commons-logging\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73295" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\commons-logging\commons-logging\srcs\commons-logging-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20120526151339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3708" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\log4j\log4j\ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="481200" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\log4j\log4j\srcs\log4j-1.2.17-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging_2.12">
+			<revision name="3.7.2" status="release" pubdate="20170721190837" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/scala-logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3392" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.typesafe.scala-logging\scala-logging_2.12\ivy-3.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.7.2/scala-logging_2.12-3.7.2.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="3.7.2" rev-constraint-default="3.7.2" rev-constraint-dynamic="3.7.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-logging_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9121" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\com.typesafe.scala-logging\scala-logging_2.12\srcs\scala-logging_2.12-3.7.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.7.2/scala-logging_2.12-3.7.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316220632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5431" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="default" name="salesforce-sync-service$sources" conf="compile, runtime-internal, runtime, optional" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55539" time="0" location="C:\Users\narala.ankireddy\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
