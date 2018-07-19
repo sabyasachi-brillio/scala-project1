@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-project-master.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-project-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-project-master-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-project-master-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-project-master_5554.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-project-master_5554.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-project-master_5554-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-project-master_5554-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-project1.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-project1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-project1-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-project1-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-project1_4306.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-project1_4306.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-project1_4306-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-project1_4306-build.iml" />
     </modules>
   </component>
 </project>

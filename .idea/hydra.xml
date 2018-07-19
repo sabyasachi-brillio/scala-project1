@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="HydraSettings">
-    <option name="hydraStorePath" value="C:\Users\vanishree.y\IdeaProjects\scala-project-master\.hydra\idea" />
+    <option name="hydraStorePath" value="C:\Users\vanishree.y\sample_project\scala-project1\.hydra\idea" />
     <option name="noOfCores" value="2" />
-    <option name="projectRoot" value="C:\Users\vanishree.y\IdeaProjects\scala-project-master" />
+    <option name="projectRoot" value="C:\Users\vanishree.y\sample_project\scala-project1" />
     <option name="sourcePartitioner" value="auto" />
   </component>
 </project>
