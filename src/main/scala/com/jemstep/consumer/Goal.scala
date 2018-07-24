@@ -1,7 +1,7 @@
 package com.jemstep.consumer
 import scala.util.parsing.json._
 object Goal {
-  def parsing(jsonstring1:String) {
+  def parsing(jsonstring1:String)= {
     class CC[T] {
       def unapply(a: Any): Option[T] = Some(a.asInstanceOf[T])
     }
