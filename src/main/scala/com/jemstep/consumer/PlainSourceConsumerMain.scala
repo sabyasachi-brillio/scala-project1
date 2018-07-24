@@ -22,9 +22,9 @@ object PlainSourceConsumerMain extends App {
   implicit val materializer: ActorMaterializer = ActorMaterializer()
 
   val consumerSettings = ConsumerSettings(system, new ByteArrayDeserializer, new JemstepKafkaAvroDeserializer)
-  .withBootstrapServers(kafka_server)
-  .withGroupId("PlainSourceConsumer")
-  .withProperty(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest")
+    .withBootstrapServers(kafka_server)
+    .withGroupId("PlainSourceConsumer")
+    .withProperty(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest")
 
   println(s"${getClass.getSimpleName} receiving messages from $kafka_server")
   //val timeStamp = "timestamp"//GetDate.getTimeStamp()
@@ -46,8 +46,12 @@ object DB {
     val organizationId: String = headerValue("organizationId", record.headers)
     val operation: String = headerValue("operation", record.headers)
     val recordSchemaFullName: String = record.value.getSchema.getFullName
-    println(record)
-    println(s"DB.$operation User: $userId, Org: $organizationId, Schema: $recordSchemaFullName\n")
+    recordSchemaFullName match {
+      case "com.jemstep.model.goal.Goal" =>Goal.parsing(record.value().toString)
+    }
+
+    //println(record)
+    //println(s"DB.$operation User: $userId, Org: $organizationId, Schema: $recordSchemaFullName\n")
     Future.successful(Done)
   }
 
