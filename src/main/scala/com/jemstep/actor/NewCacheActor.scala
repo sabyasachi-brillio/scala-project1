@@ -95,6 +95,6 @@ class NewCacheActor(bulkApiActor: ActorRef) extends Actor {
       quDePeG = List.empty[EntityInfo], quDePeMQ = List.empty[EntityInfo])
 
   private def checkCacheNonEmpty(cache: Map[String, CacheHolder]): Boolean =
-  cache.values.exists(ch => ch != getEmptyCacheHolder)
+    cache.values.exists(ch => ch != getEmptyCacheHolder)
 
 }

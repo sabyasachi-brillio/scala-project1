@@ -19,7 +19,8 @@ libraryDependencies ++= Seq("org.apache.kafka" %% "kafka" % "1.1.0",
   "org.apache.avro" % "avro" % "1.8.1",
   "com.typesafe.akka" %% "akka-actor" % "2.5.8",
   "com.typesafe.akka" %% "akka-testkit" % "2.5.8",
-  "com.typesafe.akka" %% "akka-stream-kafka" % "0.20") ++ specs2Deps ++ csvspec
+  "com.typesafe.akka" %% "akka-stream-kafka" % "0.20"
+) ++ specs2Deps ++ csvspec
   
 libraryDependencies += "org.apache.httpcomponents" % "httpclient" % "4.5.5"
 
